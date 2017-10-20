@@ -1,0 +1,24 @@
+{
+  "name": "msav_bootstrap_blue",
+  "description": "Bitrix Blue Bootstrap eCommerce Template",
+  "main": "index.php",
+  "authors": [
+    "Andrey Mishchenko"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bitrix",
+    "php",
+    "ecommerce",
+    "bootstrap"
+  ],
+  "homepage": "http://www.msav.ru/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./src/vendor",
+    "test",
+    "tests"
+  ]
+}

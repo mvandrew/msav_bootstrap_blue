@@ -1,0 +1,45 @@
+{
+  "name": "msav_bootstrap_blue",
+  "version": "1.0.0",
+  "description": "Bitrix Blue Bootstrap eCommerce Template",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitrix",
+    "php",
+    "ecommerce",
+    "bootstrap"
+  ],
+  "author": "Andrey Mishchenko",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^0.5.0",
+    "gulp-coffee": "^2.3.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-group-css-media-queries": "^1.2.0",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-remote-src": "^0.4.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-strip-comments": "^2.5.1",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "gulp.spritesmith": "^6.5.1",
+    "imagemagick": "^0.1.3",
+    "imagemin-pngquant": "^5.0.1",
+    "merge-stream": "^1.0.1",
+    "vinyl-buffer": "^1.0.0"
+  }
+}
