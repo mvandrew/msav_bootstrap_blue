@@ -6,3 +6,28 @@
 
 // Подключение файла оригинальных стилей
 @import "original_template_styles";
+
+
+// Переменные цветов темы
+@import "sass/theme/base/colors";
+
+// Libs: Библиотеки
+@import "sass/libs/variables";
+@import "sass/libs/mixins";
+
+// Theme Core: Ядро темы
+@import "sass/theme/base/typography";
+@import "sass/theme/base/layout";
+@import "sass/theme/base/controls";
+
+// Base Page Elements: Стандартные элементы страницы
+@import "sass/theme/elements/header";
+@import "sass/theme/elements/footer";
+@import "sass/theme/elements/components";
+@import "sass/theme/elements/to_top_button";
+
+// Page Styles: Стили шаблонов страниц
+@import "sass/theme/pages/page";
+
+// Additional Controls: Стили дополнительных элементов
+

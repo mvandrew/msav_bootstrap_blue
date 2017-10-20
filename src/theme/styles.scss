@@ -4,5 +4,11 @@
 // Файл стилей сайта
 //
 
+// Подключение локальных копий шрифтов
+@import "sass/fonts/font-awesome";
+@import "sass/fonts/open-sans";
+
 // Подключение файла оригинальных стилей
 @import "original_styles";
+
+
