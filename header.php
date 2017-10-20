@@ -12,9 +12,9 @@ $theme = COption::GetOptionString("main", "wizard_eshop_bootstrap_theme_id", "bl
 	<link rel="shortcut icon" type="image/x-icon" href="<?=SITE_DIR?>favicon.ico" />
 	<?$APPLICATION->ShowHead();?>
 	<?
-	$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/colors.css", true);
-	$APPLICATION->SetAdditionalCSS("/bitrix/css/main/bootstrap.css");
-	$APPLICATION->SetAdditionalCSS("/bitrix/css/main/font-awesome.css");
+	//$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/colors.css", true);
+	//$APPLICATION->SetAdditionalCSS("/bitrix/css/main/bootstrap.css");
+	//$APPLICATION->SetAdditionalCSS("/bitrix/css/main/font-awesome.css");
 	?>
 	<title><?$APPLICATION->ShowTitle()?></title>
 </head>
