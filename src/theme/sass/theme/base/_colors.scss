@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+//
+// Цвета темы
+//
+
+
+$color_lib_01:                #3f3e3a !default;
+$color_lib_02:                #98978b !default;
+$color_lib_03:                #dfd7ca !default;
+$color_lib_04:                #f7f3eb !default;
+$color_lib_05:                #f4c825 !default;
+$color_lib_06:                #337ab7 !default;
+$color_lib_07:                #eedb93 !default;
+$color_lib_08:                #c0392b !default;
+
+
+//
+// Document Colors: Цвета документа
+//
+$color-bg:                    #ffffff !default;           // Основной цвет фона документа
+$color-bg-dark:               $color_lib_03;              // Затемнённый цвет фона документа
+$color-bg-light:              $color_lib_04;              // Затемнённый цвет фона документа
+
+$color-text:                  $color_lib_01;              // Text Color: Цвет текста
+$color-text-light:            $color_lib_02;              // Светлый цвет текста
+
+$color_border:                $color_lib_02;              // Цвет рамки
+$color_border-light:          $color_lib_03;              // Цвет светлой рамки
+
+
+//
+// Links Colors: Ссылки
+//
+$color-link:                  $color_lib_06;              // Цвет ссылок
+$color-link-active:           #2a689e;                    // Цвет ссылок текущей страницы
+$color-link-hover:            $color_lib_08;              // Цвет ссылки при наведении
+$link-hover-decoration:       underline !default;         // Подчёркивание ссылки при наведении
+
+
+//
+// Цвет заголовка
+//
+$color-header-bg:             #f2ede4 !default;           // Цвет фона панели заголовка
+
+
+
+//
+// Цвета таблицы
+//
+$color-table-top-border:      $color_lib_05;              // Цвет верхней границы перед таблицей
+$color-table-row-border:      $color_lib_02;              // Цвен нижней границы строки
+$color-table-header-bg:       #f2ede4 !default;;          // Цвет фона шапки
+$color-table-row-bg-odd:      $color_lib_04;              // Фон строки
+$color-table-row-bg-even:     $color-bg;                  // Фон чётной строки

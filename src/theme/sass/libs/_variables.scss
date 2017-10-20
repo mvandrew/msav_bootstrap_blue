@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+//
+// Base Colors: Цвета
+//
+$gray-base:               #000 !default;
+$gray-darker:             lighten($gray-base, 13.5%) !default;
+$gray-dark:               lighten($gray-base, 20%) !default;
+$gray:                    lighten($gray-base, 33.5%) !default;
+$gray-light:              lighten($gray-base, 75%) !default;
+$gray-lighter:            lighten($gray-base, 96%) !default;
+
+$brand-primary:           darken(#428bca, 6.5%) !default;
+$brand-success:           #5cb85c !default;
+$brand-info:              #5bc0de !default;
+$brand-warning:           #f0ad4e !default;
+$brand-danger:            #d9534f !default;
+
+//
+// Typography: Типографика
+//
+$font-family-base:        "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+$font-size-base:          16px !default; // Базовый размер шрифта
+$font-size-large:         ceil(($font-size-base * 1.25)) !default;
+$font-size-small:         ceil(($font-size-base * 0.85)) !default;
+
+// Header font Sizes
+// Размеры шрифтов заголовков
+$font-size-h1:            floor(($font-size-base * 1.8)) !default;
+$font-size-h2:            floor(($font-size-base * 1.6)) !default;
+$font-size-h3:            ceil(($font-size-base * 1.4)) !default;
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default;
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default;
+
+// Line Height: Высота строки
+$line-height-base:        1.46 !default;
+// Computed Line Height
+// Вычисленная высота строки для использования с `margin`, `padding` и пр.
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default;
+
+
+//
+// Layout sizes
+//
+$screen-min:              320px;
+$screen-xs:               480px;
+$screen-xmin:             $screen-xs - ($screen-xs - $screen-min) / 2;
+$screen-sm:               768px;
+$screen-xsm:              $screen-sm - ($screen-sm - $screen-xs) / 2;
+$screen-md:               992px;
+$screen-lg:               1200px;
+$screen-xl:               1365px;
+
+
+//
+// Отступы
+//
+$margin-base:             1.8em !default;
+$margin-small:            0.8em !default;

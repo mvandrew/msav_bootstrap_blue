@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+//
+// Стиль конпки наверх
+//
+a#to_top_button {
+  display: none;
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  right: 2%;
+  bottom: 5%;
+  background-repeat: no-repeat;
+  background-image: url("./images/to-top.png");
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+  opacity: 0.6;
+  z-index: 999;
+} // a#to_top_button

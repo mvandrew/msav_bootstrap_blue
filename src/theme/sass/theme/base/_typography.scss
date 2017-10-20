@@ -1,0 +1,390 @@
+@charset "UTF-8";
+
+//
+// Описание типографики
+//
+
+
+body, button, input, select, textarea {
+  font-family: $font-family-base;
+}
+
+body {
+  font-size: $font-size-base;
+  background-color: $color-bg;
+  color: $color-text;
+  line-height: $line-height-base;
+  font-weight: 400;
+}
+
+main {
+  display: block;
+  margin-top: $margin-base * 2;
+  margin-bottom: $margin-base;
+  overflow: hidden;
+}
+
+
+//
+// Оформление текста
+//
+p {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+}
+
+
+//
+// Офрмление заголовков
+//
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0.8em;
+  margin-bottom: 0.4em;
+  text-transform: none;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-size: 2.8em;
+  font-weight: 300;
+  text-transform: uppercase;
+  @media screen and (max-width: $screen-xs) {
+    font-size: 1.8em;
+  }
+}
+
+h2 {
+  font-size: 2.4em;
+  @media screen and (max-width: $screen-xs) {
+    font-size: 1.6em;
+  }
+}
+
+h3 {
+  font-size: 2.2em;
+  @media screen and (max-width: $screen-xs) {
+    font-size: 1.4em;
+  }
+}
+
+h4 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  @media screen and (max-width: $screen-xs) {
+    font-size: 1.2em;
+  }
+}
+
+h5, h6 {
+  font-size: 1.45em;
+  font-weight: 600;
+  @media screen and (max-width: $screen-xs) {
+    font-size: 1.1em;
+  }
+}
+
+h6 {
+  font-size: 1.125em;
+  text-transform: uppercase;
+  @media screen and (max-width: $screen-xs) {
+    font-size: 1.05em;
+  }
+}
+
+
+//
+// Цитаты
+//
+blockquote {
+  display: block;
+  overflow: hidden;
+  margin-top: $margin-base;
+  margin-bottom: $margin-base;
+  margin-right: 0;
+  margin-left: 0;
+  padding: $margin-base !important;
+  background-repeat: no-repeat;
+  background-position: 50px 50px;
+  background-color: $color_lib_04;
+  border-left-color: $color_lib_05;
+  border-left-style: solid;
+  border-left-width: 5px;
+
+  p {
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+
+  small {
+    display: block;
+    font-weight: 400;
+    text-align: right;
+    color: #98978b;
+    font-size: 1em;
+    &:before {
+      content: "\2014";
+      margin-right: $margin-small;
+    }
+  }
+
+  *:first-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  *:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+} // blockquote
+
+
+//
+// Выделенный параграф
+//
+.lead {
+  font-size: 1.5em;
+  font-weight: 300;
+} // .lead
+
+
+//
+// Уменьшенный параграф
+//
+.small {
+  font-size: 0.85em;
+  font-weight: 400;
+} // .small
+
+
+//
+// Фокусный список
+//
+.focus-block {
+  overflow: hidden;
+  display: block;
+
+  h2 {
+    font-size: 1.75em;
+    font-weight: 400;
+    text-transform: none;
+    &:before {
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      content: "\f058";
+      color: #27ae60;
+      margin-right: $margin-small;
+    }
+    @media screen and (max-width: $screen-xs) {
+      font-size: 1.4em;
+    }
+  }
+
+  ul {
+    @include no_list;
+    li {
+      font-size: 1.5em;
+      margin-bottom: 0.2em;
+      margin-left: $margin-base;
+      color: lighten($color_lib_01, 20%);
+      &:before {
+        content: "\2014";
+        margin-right: $margin-small;
+      }
+      @media screen and (max-width: $screen-xs) {
+        font-size: 1.1em;
+        margin-left: $margin-small;
+      }
+    }
+  } // ul
+
+} // .focus-block
+
+
+//
+// Оформление таблицы
+//
+table.table {
+  width: 100%;
+  border-top-color: $color-table-top-border;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-spacing: 0;
+  margin-bottom: $margin-base;
+  tr {
+    th, td {
+      text-align: left;
+      margin: 0;
+      border-bottom-color: $color-table-row-border;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 0.4em;
+      padding-bottom: 0.4em;
+    } // th, td
+
+    th {
+      background-color: $color-table-header-bg;
+      font-size: 1.125em;
+      font-weight: 600;
+      text-transform: uppercase;
+    } // th
+
+    td {
+      background-color: $color-table-row-bg-odd;
+    } // td
+
+    &:nth-child(even) {
+      td {
+        background-color: $color-table-row-bg-even;
+      }
+    }
+
+  } // tr
+} // table.table
+
+
+//
+// Оформление формы
+//
+$form-text-size: 1.125em;
+.form {
+  display: block;
+  overflow: hidden;
+  background-color: $color_lib_04;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $color_lib_02;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: $margin-base;
+  margin-bottom: $margin-base;
+  padding: $margin-base;
+
+  .warning_area,
+  .confirm_area {
+    font-size: 1.25em;
+    display: block;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: $margin-base;
+    background-color: $color_lib_08;
+    color: $color-bg;
+    padding: $margin-small;
+  } // .warning_area
+
+  .confirm_area {
+    background-color: $color_lib_06;
+  } // .confirm_area
+
+  .field_row {
+    display: block;
+    overflow: hidden;
+    margin-top: $margin-small;
+    .field_label,
+    .field_area {
+      display: block;
+      float: left;
+    }
+
+    .field_label {
+      width: 40%;
+      label {
+        display: block;
+        text-align: right;
+        font-size: $form-text-size;
+        padding-right: $margin-small;
+        padding-top: $margin-small / 2;
+        &:after {
+          content: ':';
+        }
+        &.req {
+          font-weight: 600;
+          &:before {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            content: "\f005";
+            color: $color_lib_08;
+            margin-right: $margin-small / 2;
+          }
+        }
+      } // label
+    } // .field_label
+
+    .field_area {
+      width: 60%;
+
+      .field_container {
+        display: block;
+        background-color: $color-bg;
+        border-style: solid;
+        border-width: 1px;
+        border-color: $color_lib_02;
+        padding: $margin-small / 2;
+        input,
+        textarea {
+          display: block;
+          background-color: transparent;
+          border-style: none;
+          border-width: 0;
+          width: 100%;
+          font-size: $form-text-size;
+          color: $color-text;
+        }
+        input[type="text"]::placeholder {
+          color: $color_lib_03;
+        }
+        textarea {
+          min-height: 3em;
+        }
+      } // .field_container
+    } // .field_area
+
+    input[type="submit"] {
+      display: inline-block;
+      margin-left: 40%;
+      margin-top: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+      padding: $margin-small;
+      font-weight: 600;
+      font-size: 1.25em;
+      text-transform: uppercase;
+      color: $color-bg;
+      background-color: $color_lib_06;
+      border-color: darken($color_lib_06, 15%);
+      border-width: 1px;
+      border-style: solid;
+    }
+  } // field_row
+
+} // .form
+
+
+//
+// Оформление ссылок
+//
+a {
+  color: $color-link;
+  text-decoration: underline;
+  &:active {
+    color: $color-link-active;
+  }
+  &:hover,
+  &:focus {
+    color: $color-link-hover;
+    text-decoration: $link-hover-decoration;
+  }
+}

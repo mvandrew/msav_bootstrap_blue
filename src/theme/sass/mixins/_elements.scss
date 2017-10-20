@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+//
+// Части элементов оформления
+//
+
+// Стиль блока для размещения икноки Font Awesome
+@mixin fa-block {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+// Стили заголовков блоков для посадочных страниц
+@mixin fill-width-title {
+  @include full();
+  display: block;
+  text-align: center;
+  font-size: 3.75em;
+  margin-top: $margin-small;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  @media screen and (max-width: $screen-sm) {
+    font-size: 3em;
+  }
+  @media screen and (max-width: $screen-xs) {
+    font-size: 2.2em;
+  }
+}
+
+
+//
+// Кнопки Подробнее
+//
+a.more-button {
+
+  &.more-button-big {
+    font-size: 1.375em;
+    display: inline-block;
+    background-color: transparent;
+    color: $color_lib_01;
+    border-color: $color_lib_01;
+    border-width: 2px;
+    border-style: solid;
+    padding-top: $margin-small / 2 !important;
+    padding-bottom: $margin-small;
+    padding-left: $margin-small;
+    padding-right: $margin-small;
+    &:hover,
+    &:focus {
+      background-color: $color_lib_05;
+    }
+
+    &.more-button-light {
+      color: $color_lib_07;
+      border-color: $color_lib_07;
+      &:hover,
+      &:focus {
+        color: $color_lib_01;
+        background-color: $color_lib_07;
+      }
+    }
+  }
+
+  &:after {
+    @include fa-block;
+    content: "\f101";
+    margin-left: $margin-small / 2;
+  }
+} // a.more-button
