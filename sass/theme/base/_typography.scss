@@ -5,7 +5,11 @@
 //
 
 
-body, button, input, select, textarea {
+body,
+button,
+input,
+select,
+textarea {
   font-family: $font-family-base;
 }
 
@@ -13,10 +17,11 @@ p {
   font-family: $font-family-base;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: $font-family-base;
-}
-
-blockquote p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $font-family-base;
 }

@@ -3,3 +3,46 @@
 //
 // Оформление отдельных элементов
 //
+
+.bx-logo-text,
+.bx-logo-text:hover,
+.bx-logo-text:active {
+  font-family: $font-family-base;
+}
+
+.bx-inc-orginfo-phone {
+  font-family: $font-family-base;
+}
+
+.bx-block-title {
+  font-family: $font-family-base;
+}
+
+.bx-footer .bx-block-title {
+  font-family: $font-family-base;
+}
+
+h1.bx-title,
+h2.bx-title,
+h3.bx-title,
+h4.bx-title,
+h5.bx-title,
+h6.bx-title {
+  font-family: $font-family-base;
+}
+
+.bx-inclinksfooter .bx-block-title,
+.bx-inclinksfooter-container,
+.bx-inclogofooter-tel,
+.bx-inclogofooter-worktime,
+.bx-banners .bx-block-title,
+.bx-wt .bx-block-title,
+.bx-s-info-titletext,
+.bx-s-info-content,
+.bx-s-info-content,
+.bx-404-text-block,
+.bx-maps-title,
+.bx-map-title,
+.bxd-title {
+  font-family: $font-family-base;
+}

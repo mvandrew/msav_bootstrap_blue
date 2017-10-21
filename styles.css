@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-/* FONT PATH
- * -------------------------- */
+
 
 @font-face {
   font-family: 'FontAwesome';
@@ -20,7 +19,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* makes the font 33% larger relative to the icon container */
+
 
 .fa-lg {
   font-size: 1.33333em;
@@ -94,7 +93,7 @@
   margin-left: .3em;
 }
 
-/* Deprecated as of 4.4.0 */
+
 
 .pull-right {
   float: right;
@@ -219,8 +218,7 @@
   color: #fff;
 }
 
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-   readers do not read off random characters that represent icons */
+
 
 .fa-glass:before {
   content: "";
@@ -3054,7 +3052,7 @@
   clip: auto;
 }
 
-/* BEGIN Light */
+
 
 @font-face {
   font-family: 'Open Sans';
@@ -3064,9 +3062,9 @@
   font-style: normal;
 }
 
-/* END Light */
 
-/* BEGIN Light Italic */
+
+
 
 @font-face {
   font-family: 'Open Sans';
@@ -3076,9 +3074,9 @@
   font-style: italic;
 }
 
-/* END Light Italic */
 
-/* BEGIN Regular */
+
+
 
 @font-face {
   font-family: 'Open Sans';
@@ -3088,9 +3086,9 @@
   font-style: normal;
 }
 
-/* END Regular */
 
-/* BEGIN Italic */
+
+
 
 @font-face {
   font-family: 'Open Sans';
@@ -3100,9 +3098,9 @@
   font-style: italic;
 }
 
-/* END Italic */
 
-/* BEGIN Semibold */
+
+
 
 @font-face {
   font-family: 'Open Sans';
@@ -3112,9 +3110,9 @@
   font-style: normal;
 }
 
-/* END Semibold */
 
-/* BEGIN Semibold Italic */
+
+
 
 @font-face {
   font-family: 'Open Sans';
@@ -3124,9 +3122,9 @@
   font-style: italic;
 }
 
-/* END Semibold Italic */
 
-/* BEGIN Bold */
+
+
 
 @font-face {
   font-family: 'Open Sans';
@@ -3136,9 +3134,9 @@
   font-style: normal;
 }
 
-/* END Bold */
 
-/* BEGIN Bold Italic */
+
+
 
 @font-face {
   font-family: 'Open Sans';
@@ -3148,9 +3146,9 @@
   font-style: italic;
 }
 
-/* END Bold Italic */
 
-/* BEGIN Extrabold */
+
+
 
 @font-face {
   font-family: 'Open Sans';
@@ -3160,9 +3158,9 @@
   font-style: normal;
 }
 
-/* END Extrabold */
 
-/* BEGIN Extrabold Italic */
+
+
 
 @font-face {
   font-family: 'Open Sans';
@@ -3172,7 +3170,7 @@
   font-style: italic;
 }
 
-/* END Extrabold Italic */
+
 
 h1,
 h2,
@@ -3267,7 +3265,7 @@ hr.bxe-dotted {
   border-bottom-style: dotted;
 }
 
-/**/
+
 
 .bg-primary {
   background: #60aadb !important;
@@ -3289,7 +3287,7 @@ hr.bxe-dotted {
   color: #fff;
 }
 
-/**/
+
 
 img.pull-left {
   padding: 5px 15px 5px 0;
@@ -3299,7 +3297,7 @@ img.pull-right {
   padding: 5px 0 5px 15px;
 }
 
-/**/
+
 
 .alert {
   border: none;
@@ -3393,7 +3391,7 @@ img.pull-right {
   font-size: 14px;
 }
 
-/**/
+
 
 tab,
 tabsection,
@@ -3403,7 +3401,7 @@ tabsection,
   border: 1px dashed #ccc;
 }
 
-/**/
+
 
 .bxe-list,
 .bxe-list ul {

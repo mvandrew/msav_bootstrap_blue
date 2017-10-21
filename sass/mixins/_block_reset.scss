@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+// Simple Block Reset
+// Простой блок
+@mixin simple_block {
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: none;
+  border-width: 0;
+  border-style: none;
+}
+
+// List Style Reset
+// Сброс стиля списка
+@mixin no_list {
+  @include simple_block;
+  list-style-image: none;
+  list-style-type: none;
+}

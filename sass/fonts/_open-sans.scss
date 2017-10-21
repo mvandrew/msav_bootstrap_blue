@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+//
+// Подключение шрифта Open Sans с ресурсами из каталога темы оформления
+//
+$OpenSansPath: "./fonts/open-sans" !default;
+@import "../../../vendor/open-sans-fontface/sass/variables";
+
+@import "../../../vendor/open-sans-fontface/sass/mixins";
+@import "../../../vendor/open-sans-fontface/sass/Light";
+@import "../../../vendor/open-sans-fontface/sass/LightItalic";
+@import "../../../vendor/open-sans-fontface/sass/Regular";
+@import "../../../vendor/open-sans-fontface/sass/Italic";
+@import "../../../vendor/open-sans-fontface/sass/Semibold";
+@import "../../../vendor/open-sans-fontface/sass/SemiboldItalic";
+@import "../../../vendor/open-sans-fontface/sass/Bold";
+@import "../../../vendor/open-sans-fontface/sass/BoldItalic";
+@import "../../../vendor/open-sans-fontface/sass/ExtraBold";
+@import "../../../vendor/open-sans-fontface/sass/ExtraBoldItalic";

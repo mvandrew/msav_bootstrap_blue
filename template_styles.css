@@ -63,7 +63,7 @@ img {
   height: auto;
 }
 
-/*Logo*/
+
 
 .bx-logo {
   padding-left: 17px;
@@ -109,7 +109,7 @@ img {
   color: #b8b8b8;
 }
 
-/* Sections */
+
 
 .bx-header-section {
   border-left: 1px solid #eaebec;
@@ -126,7 +126,7 @@ img {
   border-right: 1px solid #eaebec;
 }
 
-/* header / phone */
+
 
 .bx-inc-orginfo {
   padding-left: 28px;
@@ -158,7 +158,7 @@ img {
   border-bottom-color: transparent;
 }
 
-/* header / worktime */
+
 
 .bx-worktime-title {
   color: #8d8d8d;
@@ -174,7 +174,7 @@ img {
   white-space: nowrap;
 }
 
-/*sidebar*/
+
 
 .bx-sidebar-block {
   margin-bottom: 40px;
@@ -198,7 +198,7 @@ img {
   font-weight: 600;
 }
 
-/* Breadcrumb Custom*/
+
 
 .bx-breadcrumb-item a {
   color: #757575;
@@ -208,9 +208,9 @@ img {
   color: #2d2d2d;
 }
 
-/* workarea */
 
-/*TITLE*/
+
+
 
 h1.bx-title,
 h2.bx-title,
@@ -237,7 +237,7 @@ h2.bx-title {
   font-size: 25px;
 }
 
-/* FORMS */
+
 
 input[type=text],
 input[type=password] {
@@ -267,14 +267,14 @@ textarea {
   outline: none;
 }
 
-/* INC.banners */
+
 
 .bx-incbanners {
   margin: 10px 0 25px;
   text-align: center;
 }
 
-/* INC.links.footer */
+
 
 .bx-inclinksfooter a {
   border-bottom: none;
@@ -308,7 +308,7 @@ textarea {
   padding: 0 0 5px 0;
 }
 
-/* INC.logo.footer */
+
 
 .bx-inclogofooter {
   color: #fff;
@@ -344,7 +344,7 @@ textarea {
   text-transform: uppercase;
 }
 
-/* INC.social.widget */
+
 
 .bx-banners {
   margin: 10px 0;
@@ -359,7 +359,7 @@ textarea {
   font-weight: 600;
 }
 
-/* INC.wt */
+
 
 .bx-wt-block {
   color: #fff;
@@ -399,7 +399,7 @@ textarea {
   margin-top: 4px;
 }
 
-/* news.list.sidebar */
+
 
 .bx-s-info {
   margin: 10px 0;
@@ -460,7 +460,7 @@ textarea {
   padding-left: 36px;
 }
 
-/* FOOTER */
+
 
 .bx-footer {
   background: #292d2e;
@@ -505,7 +505,7 @@ textarea {
   border-bottom: none;
 }
 
-/**/
+
 
 .btn,
 .btn:hover,
@@ -542,7 +542,7 @@ textarea {
   text-decoration: none;
 }
 
-/*404*/
+
 
 .bx-404-container {
   width: 100%;
@@ -616,7 +616,7 @@ ul.map-level-1 {
   margin-bottom: 30px;
 }
 
-/*ABOUT*/
+
 
 .bxd-block {
   width: 100%;
@@ -760,6 +760,10 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+blockquote p {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 

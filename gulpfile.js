@@ -96,6 +96,7 @@ gulp.task('sass', function () {
         .pipe( sass() )
         .pipe( autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }) )
         .pipe( gcmq() )
+        .pipe( stripCssComments({preserve: false}) )
         //.pipe( cssnano() )
         .pipe( gulp.dest('./') )
         .pipe( reload({stream:true}) )
