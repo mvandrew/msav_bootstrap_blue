@@ -121,6 +121,7 @@
 				<div class="bx-footer-section container">
 					<div class="col-sm-6"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/copyright.php"), false);?></div>
 					<div class="col-sm-6 bx-up"><a href="javascript:void(0)" data-role="eshopUpButton"><i class="fa fa-caret-up"></i> <?=GetMessage("FOOTER_UP_BUTTON")?></a></div>
+                    <div class="col-sm-12 msav-copy"><a href="http://www.msav.ru/">Создание сайта</a> msav.ru</div>
 				</div>
 			</div>
 

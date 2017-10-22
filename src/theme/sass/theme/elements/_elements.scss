@@ -4,6 +4,11 @@
 // Оформление отдельных элементов
 //
 
+.msav-copy {
+  margin-top: $margin-small;
+  font-size: .8em;
+}
+
 .bx-logo-text,
 .bx-logo-text:hover,
 .bx-logo-text:active {
@@ -43,6 +48,7 @@ h6.bx-title {
 .bx-404-text-block,
 .bx-maps-title,
 .bx-map-title,
-.bxd-title {
+.bxd-title,
+.bx-top-nav-container {
   font-family: $font-family-base;
 }
