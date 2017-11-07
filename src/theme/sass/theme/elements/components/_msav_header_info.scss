@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+//
+// Строка информационного меню в шапке сайта
+//
+.msav-header-info {
+  display: block;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: $gray-lighter;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lighten($gray-light, 15%);
+
+  .bx-header-section {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: transparent;
+  }
+
+  ul.left-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 12px;
+    overflow: hidden;
+
+    li {
+      display: block;
+      float: left;
+      padding: 0;
+      margin-right: 15px;
+      border-width: 0;
+      border-style: none;
+      background-color: transparent;
+      background-image: none;
+
+      a {
+        font-weight: 400;
+        color: $gray;
+        text-decoration: none;
+        &.selected {
+          color: $gray-dark;
+        }
+        &:hover, &:focus {
+          text-decoration: underline;
+        }
+        &:active {
+          color: $gray-dark;
+        }
+      }
+    }
+  }
+
+} // .msav-header-info

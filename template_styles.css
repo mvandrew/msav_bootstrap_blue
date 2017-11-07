@@ -767,6 +767,127 @@ blockquote p {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.msav_sidebar_catalog {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e6e6e6;
+}
+
+.msav_sidebar_catalog .bx-block-title {
+  display: block;
+  background-color: whitesmoke;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.msav_sidebar_catalog .bx_sitemap {
+  padding: 0;
+  margin: 0;
+}
+
+.msav_sidebar_catalog .bx_sitemap ul {
+  padding-top: 0;
+  padding-left: 15px;
+  padding-right: 0;
+  padding-bottom: 0;
+  margin: 0;
+  display: block;
+  list-style: none;
+}
+
+.msav_sidebar_catalog .bx_sitemap ul.bx_sitemap_ul {
+  padding-left: 0;
+}
+
+.msav_sidebar_catalog .bx_sitemap ul li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.msav_sidebar_catalog .bx_sitemap ul li h2 {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.msav_sidebar_catalog .bx_sitemap ul li h2 a {
+  display: block;
+  background-color: #ffffff;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.msav_sidebar_catalog .bx_sitemap ul li h2 a:hover,
+.msav_sidebar_catalog .bx_sitemap ul li h2 a:focus {
+  background-color: whitesmoke;
+}
+
+.msav-header-info {
+  display: block;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: whitesmoke;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e6e6e6;
+}
+
+.msav-header-info .bx-header-section {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: transparent;
+}
+
+.msav-header-info ul.left-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.msav-header-info ul.left-menu li {
+  display: block;
+  float: left;
+  padding: 0;
+  margin-right: 15px;
+  border-width: 0;
+  border-style: none;
+  background-color: transparent;
+  background-image: none;
+}
+
+.msav-header-info ul.left-menu li a {
+  font-weight: 400;
+  color: #555555;
+  text-decoration: none;
+}
+
+.msav-header-info ul.left-menu li a.selected {
+  color: #333333;
+}
+
+.msav-header-info ul.left-menu li a:hover,
+.msav-header-info ul.left-menu li a:focus {
+  text-decoration: underline;
+}
+
+.msav-header-info ul.left-menu li a:active {
+  color: #333333;
+}
+
 .msav-copy {
   margin-top: 0.8em;
   font-size: .8em;
@@ -814,6 +935,27 @@ h6.bx-title {
 .bxd-title,
 .bx-top-nav-container {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.bx-header-section,
+.bx-content-seection {
+  border-left-width: 0;
+  border-left-style: none;
+  border-right-width: 0;
+  border-right-style: none;
+}
+
+.msav-main-nav {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #0083d1;
+}
+
+.msav-main-nav nav.bx-top-nav-container {
+  margin-top: 0;
 }
 
 a#to_top_button {

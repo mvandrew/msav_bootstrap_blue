@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+//
+// Меню каталога товаров
+//
+.msav_sidebar_catalog {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lighten($gray-light, 15%);
+
+  .bx-block-title {
+    display: block;
+    background-color: $gray-lighter;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .bx_sitemap {
+    padding: 0;
+    margin: 0;
+
+    ul {
+      padding-top: 0;
+      padding-left: 15px;
+      padding-right: 0;
+      padding-bottom: 0;
+      margin: 0;
+      display: block;
+      list-style: none;
+
+      &.bx_sitemap_ul {
+        padding-left: 0;
+      }
+
+      li {
+        display: block;
+        padding: 0;
+        margin: 0;
+
+        h2 {
+          display: block;
+          margin: 0;
+          padding: 0;
+
+          a {
+            display: block;
+            background-color: $color-bg;
+            text-decoration: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+            &:hover,
+            &:focus {
+              background-color: $gray-lighter;
+            }
+          }
+        }
+
+      } // li
+
+    }
+  }
+}

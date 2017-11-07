@@ -52,3 +52,32 @@ h6.bx-title {
 .bx-top-nav-container {
   font-family: $font-family-base;
 }
+
+
+//
+// Скрываем границу контейнера
+//
+.bx-header-section,
+.bx-content-seection {
+  border-left-width: 0;
+  border-left-style: none;
+  border-right-width: 0;
+  border-right-style: none;
+}
+
+
+//
+// Растягиваем меню во всю ширину
+// 0083d1
+.msav-main-nav {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #0083d1;
+
+  nav.bx-top-nav-container {
+    margin-top: 0;
+  }
+}

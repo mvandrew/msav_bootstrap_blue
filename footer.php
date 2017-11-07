@@ -1,21 +1,5 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 					</div>
-					<?if (!$needSidebar):?>
-					<div class="sidebar col-md-3 col-sm-4">
-						<?$APPLICATION->IncludeComponent(
-							"bitrix:main.include",
-							"",
-							Array(
-								"AREA_FILE_SHOW" => "sect",
-								"AREA_FILE_SUFFIX" => "sidebar",
-								"AREA_FILE_RECURSIVE" => "Y",
-								"EDIT_MODE" => "html",
-							),
-							false,
-							Array('HIDE_ICONS' => 'Y')
-						);?>
-					</div><!--// sidebar -->
-					<?endif?>
 				</div><!--//row-->
 				<?$APPLICATION->IncludeComponent(
 					"bitrix:main.include",
@@ -33,22 +17,6 @@
 		</div><!--//workarea-->
 
 		<footer class="bx-footer">
-			<div class="bx-footer-line">
-				<div class="bx-footer-section container">
-					<?$APPLICATION->IncludeComponent(
-						"bitrix:main.include",
-						"",
-						Array(
-							"AREA_FILE_SHOW" => "file",
-							"PATH" => SITE_DIR."include/socnet_footer.php",
-							"AREA_FILE_RECURSIVE" => "N",
-							"EDIT_MODE" => "html",
-						),
-						false,
-						Array('HIDE_ICONS' => 'Y')
-					);?>
-				</div>
-			</div>
 			<div class="bx-footer-section container bx-center-section">
 				<div class="col-sm-5 col-md-3 col-md-push-6">
 					<h4 class="bx-block-title"><?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/about_title.php"), false);?></h4>
